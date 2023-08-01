@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'GrandHotel-Regular';
+    src: url(fonts/GrandHotel-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat-Regular';
+}
+.main {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+header {
+    width: 100%;
+    height: 800px;
+    background: url(img/vector.png) center repeat-y,
+                url(img/main.png) left no-repeat,
+                url(img/black.png) right no-repeat;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.section_1 {
+   padding-top: 10px;
+   padding-left: 600px;
+}
+.main_title {
+    font-family: 'GrandHotel-Regular';
+    font-size: 124.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffc200;
+}
+.text_section_1 {
+    font-size: 29.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.button_section_1 {
+    width: 245px;
+    height: 50px;
+    background-color: #ffc200;
+    border-radius: 4px;
+    font-size: 19.3px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+.section_2 {
+    padding-top: 140px;
+    padding-bottom: 75px;
+    height: 800px;
+    background-color: #ffffff;
+}
+.title_section_2 {
+    font-family: 'GrandHotel-Regular';
+    font-size: 75px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+.text_section_2 {
+    font-size: 25.3px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+.figure {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img {
+    text-align: center;
+}
+.img_titles {
+    font-family: 'GrandHotel-Regular';
+    font-size: 41.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.img_text {
+    font-size: 16.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.section_3 {
+    height: 800px;
+    padding-top: 150px;
+    padding-bottom: 110px;
+    background: url(img/vector_2.png) center no-repeat, #ffffff;
+}
+.dish {
+    float: left;
+    padding-right: 100px;
+}
+.section_3_title {
+    font-family: 'GrandHotel-Regular';
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffc200;
+}
+.text_section_3 {
+    font-size: 29.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.button_section_3 {
+    width: 245px;
+    height: 50px;
+    background-color: #ffc200;
+    border-radius: 4px;
+    font-size: 19.3px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+.section_4 {
+    height: 600px;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    background-color: #303030;
+}
+.section_4_title {
+    font-family: 'GrandHotel-Regular';
+    text-align: center;
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffc200;
+}
+.text_section_4 {
+    text-align: center;
+    font-size: 29.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.static {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 50px;
+}
+.img_static {
+    text-align: center;
+    width: 230px;
+    height: 230px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+.number_titles {
+    font-size: 50.6px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffc200;
+}
+.text_number {
+    font-size: 28.9px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.section_5 {
+    height: 700px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: url(img/vector_3.png) center no-repeat, #ffffff;
+}
+.dish_2 {
+    float: right;
+}
+.section_5_text {
+    text-align: center;
+}
+.text_section_5 {
+    font-size: 29.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.button_section_5 {
+    width: 245px;
+    height: 50px;
+    background-color: #ffc200;
+    border-radius: 4px;
+    font-size: 19.3px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+.section_5_title {
+    font-family: 'GrandHotel-Regular';
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffc200;
+}
+.section_6 {
+    padding-top: 270px;
+    padding-bottom: 270px;
+    height: 400px;
+    text-align: center;
+    background: url(img/img_dish.png) center no-repeat, rgba(226, 208, 10, 0.945);
+
+}
+.section_6_title {
+    font-family: 'GrandHotel-Regular';
+    font-size: 74.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.text_section_6 {
+    font-size: 44.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.section_7 {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    height: 500px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.section_7_title {
+    font-family: 'GrandHotel-Regular';
+    font-size: 74.2px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.text_section_7 {
+    font-size: 44.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 85px;
+}
+.input {
+    width: 549px;
+    height: 63px;
+    background-color: #f4f4f4;
+    border-radius: 4px 0px 0px 4px;
+    opacity: 0.5;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #333333;
+}
+.button {
+    width: 222px;
+    height: 65px;
+    background-color: #ffc200;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    height: 485px;
+    background-color: #303030;
+}
+.basement_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.basement_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title_footer {
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.text_footer {
+    font-size: 23.6px;
+    line-height: 41px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.social_network {
+    padding-left: 100px;
+}
+
+
+
